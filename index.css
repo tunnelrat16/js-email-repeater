@@ -1,0 +1,40 @@
+input, label, output {
+  display: block;
+  box-sizing: border-box;
+}
+
+label {
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 2em;
+  width: 25em;
+  padding: 16px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  background-color: hsl(240, 60%, 40%);
+  color: #fff;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  box-shadow: 1px 1px 3px hsl(0, 0%, 50%);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 36px;
+}
+
+output {
+  border: 8px solid hsl(240, 60%, 40%);
+  padding: 16px 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 21em;
+}
